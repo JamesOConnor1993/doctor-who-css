@@ -2,6 +2,16 @@ body {
 	background-image: url(images/star-background.jpg);
 	margin: 0px;
 	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+p {
+	margin-bottom: 2.5em;
+	line-height: 2em;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 .wrapper {
 	background-color: #A69F8A;
@@ -61,8 +71,16 @@ body {
 }
 .home-img img {
 	border: 1 solid #000;
-	margin-top: 0px;
 	margin-right: 5px;
 	margin-bottom: 5px;
-	margin-left: 0px;
+}
+.doctor-bio p {
+	margin-left: 50px;
+}
+.doctor-bio img {
+	border: 1px solid #000;
+}
+.doctor-bio td {
+	text-align: left;
+	vertical-align: top;
 }
